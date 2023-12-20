@@ -30,8 +30,8 @@ import sys.io.Process;
 class Main extends Sprite
 {
 	var game = {
-		width: 1280, // WINDOW width
-		height: 720, // WINDOW height
+		width: 720, // WINDOW width
+		height: 360, // WINDOW height
 		initialState: TitleState, // initial game state
 		zoom: -1.0, // game state bounds
 		framerate: 60, // default framerate
